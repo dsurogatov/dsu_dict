@@ -9,16 +9,17 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
 	<title><spring:message code="label.title" /></title>
 	
-	<!-- <link rel="stylesheet" type="text/css" href="resources/css/ext-all.css">
-    <script type="text/javascript" src="resources/extjs/ext-all-debug.js"></script>
-    <script type="text/javascript" src="resources/app.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="resources/css/class.css">
 	
 </head>
 <body>
 
-<a href="<c:url value="/logout" />">
-	<spring:message code="label.logout" />
-</a>
+<div class="menuPanel">
+	<div class="left-middle-wide-panel">&nbsp;</div>
+	<a href="<c:url value="/logout" />">
+		<spring:message code="label.logout" />
+	</a>
+</div>
   
 <h2><spring:message code="label.title" /></h2>
 
