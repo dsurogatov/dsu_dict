@@ -14,14 +14,27 @@
 </head>
 <body>
 
-<div class="menuPanel">
-	<div class="left-middle-wide-panel">&nbsp;</div>
-	<a href="<c:url value="/logout" />">
+<div id="pnlCaption">
+	<div id="pnlTitle" ><spring:message code="label.title" /></div>	
+	<a class="loginHref" href="<c:url value="/logout" />">
 		<spring:message code="label.logout" />
 	</a>
+	<div class="helper"></div>
 </div>
-  
-<h2><spring:message code="label.title" /></h2>
+
+<div id="pnlMenu">
+	<div class="menuItem">
+		<a class="menuItemHref" href="http://www.microsoft.com">Новое слово</a>
+	</div>
+	<div id="pnlSearch">
+		<input id="edtSearch">
+	</div>
+	<div id="pnlSearchBtn">
+		<a href="http://www.espn.com" target="_blank">
+			<img src="resources/ico/search_button.png"  />
+		</a>
+	</div>
+</div>
 
 <form:form method="post" action="add" commandName="word">
 

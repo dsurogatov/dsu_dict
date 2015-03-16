@@ -1,2 +1,70 @@
-.menuPanel { }
-.left-middle-wide-panel { float: left; width:500px; } /* пустая панель распорка */ 
+#pnlCaption
+{
+	height: 40px;
+}
+
+.loginHref {
+	display:inline-block;
+    vertical-align:middle;
+}
+
+.helper {
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0px;
+}
+
+#pnlTitle /* пустая панель распорка */ 
+{		
+	width:500px;
+	display:inline-block;
+    vertical-align:middle;      	
+} 
+
+.menuItem { 
+	display:table-cell;
+    width:150px;
+	vertical-align:middle;
+}
+
+.menuItem:nth-child(odd){
+    background-color:#aaa;
+}
+
+.menuItem:nth-child(even){
+    background-color:#666;
+}
+
+.menuItemHref {
+	display:inline-block;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+
+#pnlMenu 
+{
+    display:table;    
+    width:600px;
+    border:1px solid #000;         
+}
+
+#pnlSearch {	
+	display:table-cell;
+	width:70%;
+	vertical-align:middle; 
+	//padding: 2px;
+	padding-right: 30px;
+}
+#edtSearch 
+{ 	
+	width:100%;   
+	margin-left: 20px; 
+}
+
+#pnlSearchBtn { 
+	display:table-cell;	
+	padding-left: 2px; 
+	vertical-align:middle; 
+	  
+}
